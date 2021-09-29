@@ -25,7 +25,7 @@ from config import SUPPORT_GROUP, UPDATES_CHANNEL
 from translations import START_TEXT, HELP_TEXT, ABOUT_TEXT
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
-@Client.on_message(filters.command(["vstart", f"start@{USERNAME}"]))
+@Client.on_message(filters.command(["start", f"start@{USERNAME}"]))
 async def start(client, message):
    buttons = [
             [
