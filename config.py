@@ -25,14 +25,14 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "5948661"))
+API_HASH = getenv("API_HASH", "ed081430c75f3e0b9a95b3b5d461fa73")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "CozmoUpdates")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "CozmoSupport_Official")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "ALKnowledgeHub")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1773779239").split()))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
